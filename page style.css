@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(photo1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Times New Roman';
+}
+.navbar{
+    background-color: rgb(244 230 188 / 60%);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.logo{
+    color: rgb(75, 58, 4);
+    font-weight: 700;
+    height: 50px;
+    width: 500px;
+    font-size: 40px;
+}
+.tags a{
+    padding: 5px;
+    margin: 5px;
+    font-size:25px;
+    text-decoration: none;
+    color: black;
+}
+.tags a:hover{
+    background-color: rgb(75, 58, 4);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.input input{
+    height: 28px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.input input:hover{
+    border: 2px solid rgb(75, 58, 4);
+}
+.input button{
+    height: 38px; 
+    width: 70px; 
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.input button:hover{
+    background-color: rgb(75, 58, 4);
+    color: white;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 20px 40px;
+}
+.title p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sample-coffee{
+    background-color: rgb(244 230 188 / 60%);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sample-content p{
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(75, 58, 4);
+}
+.sample{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.sample img{
+    height: 200px;
+    width: 250px;
+}
+.sample h1{
+    font-size: 27px;
+    margin: 10px;
+}
+.sample button{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.sample button:hover{
+    background-color: rgb(75, 58, 4);
+    color: white;
+}
+
+.coffee-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.type{
+    background-color: rgb(244 230 188 / 60%);
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+.type-img{
+    height: 280px;
+    background-size: cover;
+    margin:1rem;
+}
+.type-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.type-content p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.type-content button{
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+.type-content button:hover{
+    background-color: rgb(75, 58, 4);
+    color: white;
+}
+.view-product{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.view-product button{
+    background-color: rgb(244 230 188 / 60%);
+    height: 40px;
+    width: 230px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.view-product button:hover{
+    background-color: rgb(75, 58, 4);
+    color: white;
+}
+.personal-info{
+    height:300px; 
+    width: 100%; 
+    background-color: rgb(244 230 188 / 60%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.personal-info p{
+    font-size: 20px;
+    margin: 10px;
+}
+.personal-info button{
+    background-color: rgb(244 230 188 / 60%) ;
+    height: 30px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.personal-info button:hover{
+    background-color: rgb(75, 58, 4);
+    color: white;
+}
+footer{
+    background-color:rgb(244 230 188 / 60%) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.icon i{
+    display: inline; 
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+
